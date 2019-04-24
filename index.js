@@ -21,6 +21,6 @@ function destructivelyRemoveFirstKitten() {
 }
 
 function appendKitten(name) {
-  new_array = [name, ...kittens]// add name to start of array and store in new array
+  new_array = [...kittens, name]// add name to end of array and store in new array
   return new_array
 }
