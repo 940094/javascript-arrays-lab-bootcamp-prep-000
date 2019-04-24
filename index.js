@@ -31,11 +31,11 @@ function prependKitten(name) {
 }
 
 function removeLastKitten() {
-  new_array = kittens.splice(0, kittens.length - 1)  // remove last kitten using splice() and store new array in new_array variable
+  var new_array = kittens.splice(0, kittens.length - 1)  // remove last kitten using splice() and store new array in new_array variable
   return new_array
 }
 
 function removeFirstKitten() {
-  new_array = kittens.splice(1)  // remove last kitten using splice() and store new array in new_array variable
+  var new_array = kittens.splice(1)  // remove last kitten using splice() and store new array in new_array variable
   return new_array
 }
