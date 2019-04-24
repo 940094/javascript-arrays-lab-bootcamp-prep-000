@@ -28,3 +28,8 @@ function appendKitten(name) {
 function prependKitten(name) {
   var new_array = [name, ...kittens] // add name to start of array in new array
 }
+
+function removeLastKitten() {
+  new_array = kittens.splice(0, kittens.length - 1)  // remove last kitten using splice() and store new array in new_array variable
+  return new_array
+}
