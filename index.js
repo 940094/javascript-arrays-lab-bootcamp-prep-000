@@ -1,6 +1,11 @@
 var kittens = ["Milo", "Otis", "Garfield"] //define your array here
 
-function destructivelyAppendKitten(kittens) {
-  kittens.push("Garfee") // add a kitten using push
+function destructivelyAppendKitten(name) {
+  kittens.push(name) // add a kitten using push
+  return kittens
+}
+
+function destructivelyRemoveLastKitten() {
+  kittens.pop() //  remove kitten using pop
   return kittens
 }
