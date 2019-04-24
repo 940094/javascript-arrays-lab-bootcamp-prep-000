@@ -14,3 +14,8 @@ function destructivelyPrependKitten(name) {
   kittens.unshift(name) // add name to start of array using unshift
   return kittens
 }
+
+function destructivelyRemoveFirstKitten() {
+  kittens.shift()  // remove first kitten using shift
+  return kittens
+}
