@@ -9,3 +9,7 @@ function destructivelyRemoveLastKitten() {
   kittens.pop() //  remove kitten using pop
   return kittens
 }
+
+function destructivelyPrependKitten(name) {
+  kittens.unshift(name) // add name to start of array using unshift
+}
