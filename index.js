@@ -21,6 +21,10 @@ function destructivelyRemoveFirstKitten() {
 }
 
 function appendKitten(name) {
-  new_array = [...kittens, name]// add name to end of array and store in new array
+  var new_array = [...kittens, name]// add name to end of array and store in new array
   return new_array
+}
+
+function prependKitten(name) {
+  var new_array = [name, ...kittens] // add name to start of array in new array
 }
