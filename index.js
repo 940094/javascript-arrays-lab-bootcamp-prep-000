@@ -12,4 +12,5 @@ function destructivelyRemoveLastKitten() {
 
 function destructivelyPrependKitten(name) {
   kittens.unshift(name) // add name to start of array using unshift
+  return kittens
 }
