@@ -27,6 +27,7 @@ function appendKitten(name) {
 
 function prependKitten(name) {
   var new_array = [name, ...kittens] // add name to start of array in new array
+  return new_array
 }
 
 function removeLastKitten() {
